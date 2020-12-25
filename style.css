@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+
+#back{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background:url(./blue\ leaves.svg);
+    background-position: center;
+}
+
+
+#left{
+    width: 7%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+#left h1{
+    font-size: 27px;
+}
+
+i{
+    color: white;
+}
+
+#page{
+    display: flex;
+}
+/* ============= */
+#center{
+    width: 53%;
+    height: 100%;
+    padding: 15px 40px;
+}
+
+#search{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #ffffff1f;
+    border: 2px solid #ffffff12;
+    border-radius: 5px;
+    
+}
+
+#search i{
+    margin: 0px 20px;
+}
+
+#search h4{
+    font-size: 12px;
+    font-weight: 400;
+    opacity: .3;
+}
+
+#element{
+    position: relative;
+    top: 50%;
+    transform: translate(0,-55%);
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#element h4{
+    font-size: 14px;
+    font-weight: 400;
+    opacity: .3;
+    letter-spacing: 2px;
+}
+
+#element h1{
+    font-size: 55px;
+    line-height: 60px;
+}
+
+#element p{
+    font-size: 12px;
+    opacity: .4;
+}
+
+#btn{
+    display: flex;
+    justify-content: space-between;
+    width: 53%;
+    
+}
+
+button{
+    padding: 13px 25px ;
+    border-radius: 40px;
+    border: none;
+    color: black;
+    font-family:  "Gilroy ☞";
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    outline:none ;
+}
+
+.btnclr{
+    background-color: #ffffff0f;
+    color: white;
+    border: 2px solid #ffffff12;
+}
+
+/* ======= */
+#right{
+    width: 40%;
+    height: 100%;
+    padding-top: 25px;
+}
+
+#links{
+    display: flex;
+    width: 100%;
+    font-family: "Gilroy ☞";
+    font-size: 13px;
+}
+
+#links a{
+    text-decoration: none;
+    margin-left: 45px;
+    color: white;
+}
+
+#box{
+    position: relative;
+    top: 50%;
+    transform: translate(0,-47%);
+    width: 90%;
+    height: 72%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box{
+    width: 180px;
+    padding: 30px;
+    background-color:#ffffff0f;
+    border-radius:15px;
+    border: 2px solid #ffffff12;
+    cursor: pointer;
+}
+
+.box h2{
+    font-size:20px;
+    opacity: .5;
+}
+
+.box h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 27px;
+}
+
+.box p{
+    font-size: 13px;
+    opacity: .7;
+    font-weight: 300;
+}
+
+
+/* -------------------------------------------------------------- */
+
+
+.font1{
+    font-family: "Plafair Display";
+    color: white;
+}
+
+.font2{
+    font-family: "Gilroy ☞";
+    color: white;
+}
+
+.line{
+    width: 2px;
+    height: 35%;
+    background-color: #ffffff1a;
+}
+
+/* ================= */
+
+button:hover{
+    background-color:#282db1;
+    color: white;
+}
+
+#links a:hover{
+    box-shadow:0px 0px 30px 5px #282db1;
+}
+
+
+
+
+
+
+
+
+
+
+/* #back1{
+    background: url(./green\ leaves.svg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    transform: translate(100%, 0);
+} */
+
+#crl{
+    z-index: 9999;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 50px;
+    height: 50px;
+    border: 1.6px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+
+
+/* ========================================== */
+
